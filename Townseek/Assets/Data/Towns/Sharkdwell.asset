@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80349e86f894429f8b931128245e853d, type: 3}
+  m_Name: Sharkdwell
+  m_EditorClassIdentifier: 
+  townDescription: Born and raised to sea dwellers, adventurous enough to explore
+    the land and sky. Let's explore!
+  townIcon: {fileID: 21300000, guid: 08d33b74fe2db2540af32640abd76ea8, type: 3}
+  itemInventory:
+  - item: {fileID: 11400000, guid: aa17bb230596742468fc7179a4b4438e, type: 2}
+    stock: 6
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 191a57455c1e486468dc27d49fcee710, type: 2}
+    stock: 6
+    restockTime: 30
+  - item: {fileID: 11400000, guid: d4fd5825d813f36468b70a700272774a, type: 2}
+    stock: 2
+    restockTime: 50
+  - item: {fileID: 11400000, guid: 2f72c15df95330a468176e79a13d1446, type: 2}
+    stock: 4
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 8391ef83839e0ac4b8843e1281e094c0, type: 2}
+    stock: 3
+    restockTime: 50
+  - item: {fileID: 11400000, guid: 1439aeb8e2d94224fb44211b0ee6282a, type: 2}
+    stock: 4
+    restockTime: 40
+  categoryModifiers:
+  - category: {fileID: 11400000, guid: 599e157d636fdb941aed7417e413f788, type: 2}
+    priceFluctuation: {x: 1, y: 1.2}
+  - category: {fileID: 11400000, guid: 87c56b1777d9bba4e8251c1caff5cac9, type: 2}
+    priceFluctuation: {x: 0.9, y: 1.1}
+  - category: {fileID: 11400000, guid: 87b050dcb80624449b591f5ec6ec6712, type: 2}
+    priceFluctuation: {x: 0.7, y: 1.3}
+  - category: {fileID: 11400000, guid: eb72eeee1a26f16459da69511ed68e1a, type: 2}
+    priceFluctuation: {x: 1.1, y: 1.4}
+  playerSpotRadius: 10
+  audioIdentifier: 7
+  characterName: Cpt. Jawline
+  characterPortrait: {fileID: 21300000, guid: 7346388558b3b334d9616f76be877fcf, type: 3}
+  welcomeTalk: Hey, kiddo! What did you bring from across the world?
+  noMoneyTalk: <wiggle>Haha, good one!</wiggle> But I can't lower my prices even
+    to you. Travel around and find your fortune!
+  buyTalk: <wiggle>Only my best for you, pal!</wiggle> Glad we can continue to make
+    business!
+  sellTalk: That will make some sharks quite jealous. So, naturally, it has to be
+    mine. Thanks!
+  outOfStockTalk: That doesn't grow on reefs, you know. It'll take some time to restock.

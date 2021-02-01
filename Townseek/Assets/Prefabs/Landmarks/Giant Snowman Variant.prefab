@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3860953857481496788
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 25.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141188, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053626141189, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: landmark
+      value: 
+      objectReference: {fileID: 11400000, guid: ab2d270ed3cd17948a276092e00328c5, type: 2}
+    - target: {fileID: 8852772053626141190, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_Name
+      value: Giant Snowman
+      objectReference: {fileID: 0}
+    - target: {fileID: 8852772053923684808, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2870416740650078158, guid: 8ac912ceb0555d4459e564fc977b288c, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9adb7cf5fe5353e4dbf5713a4cc9ff65, type: 3}

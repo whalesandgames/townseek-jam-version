@@ -1,0 +1,58 @@
+# Whales And Games Unity with FMod Integration Git Ignore File
+# Last Updated 04-12-2020
+
+# Unity Folders
+UnityGenerated/
+[Ll]ogs/
+[Ll]ibrary/
+[Oo]bj/
+[Tt]emp/
+[Bb]uilds/
+[Ss]creenshots/
+[Rr]ecordings/
+
+# Plugin Folders
+[Ee]xamples/
+[Dd]ocumentation/
+
+# Meta Data
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+
+# IDE Files
+.idea/
+.consulo/
+.gradle/
+ExportedObj/
+*.vs
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Builds
+*.exe
+*.apk
+
+# FMOD Files
+FMODStudioCache.asset
+FMODStudioCache.asset.meta
+fmod.log
+fmod_editor.log
+fmod.log.meta
+fmod_editor.log.meta
+*.user
+*.unsaved
+*.cache
+*.restore

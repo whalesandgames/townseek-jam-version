@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4441794837772191570
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6650465910657169520, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -694541637187506017, guid: 8ac912ceb0555d4459e564fc977b288c, type: 3}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -26.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518076, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6650465910896518077, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: landmark
+      value: 
+      objectReference: {fileID: 11400000, guid: 131f09cfcb2adf94ca34ca4b4470f061, type: 2}
+    - target: {fileID: 6650465910896518078, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}
+      propertyPath: m_Name
+      value: Mushroom Forest
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c10310972afb0d64593ad48b8f6bf7e0, type: 3}

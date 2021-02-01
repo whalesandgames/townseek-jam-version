@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{357e238d-ad5c-479d-9ee1-6667e2b29a96}">
+		<property name="name">
+			<value>ForestProx</value>
+		</property>
+		<relationship name="folder">
+			<destination>{236b5fcc-673d-4386-ace7-94b7d189730d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{50dd3a3e-a138-4ebb-8fd7-337f11b2b1a4}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{50dd3a3e-a138-4ebb-8fd7-337f11b2b1a4}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

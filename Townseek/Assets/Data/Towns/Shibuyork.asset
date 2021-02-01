@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80349e86f894429f8b931128245e853d, type: 3}
+  m_Name: Shibuyork
+  m_EditorClassIdentifier: 
+  townDescription: A city of idols, music and brawls, often at the same time! Be
+    sure to stick around for the concerts!
+  townIcon: {fileID: 21300000, guid: bc433ff724261954fb51ce46c662f1ae, type: 3}
+  itemInventory:
+  - item: {fileID: 11400000, guid: a0c5a0649856c7042846e825080df53a, type: 2}
+    stock: 10
+    restockTime: 20
+  - item: {fileID: 11400000, guid: 8391ef83839e0ac4b8843e1281e094c0, type: 2}
+    stock: 8
+    restockTime: 50
+  - item: {fileID: 11400000, guid: 1439aeb8e2d94224fb44211b0ee6282a, type: 2}
+    stock: 8
+    restockTime: 30
+  - item: {fileID: 11400000, guid: d4fd5825d813f36468b70a700272774a, type: 2}
+    stock: 3
+    restockTime: 40
+  - item: {fileID: 11400000, guid: 8d3753c390797644ab1799ede42baca2, type: 2}
+    stock: 6
+    restockTime: 40
+  - item: {fileID: 11400000, guid: 1743dffbf47106b4491109b832697f3d, type: 2}
+    stock: 5
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 191a57455c1e486468dc27d49fcee710, type: 2}
+    stock: 3
+    restockTime: 40
+  categoryModifiers:
+  - category: {fileID: 11400000, guid: 599e157d636fdb941aed7417e413f788, type: 2}
+    priceFluctuation: {x: 0.7, y: 1.2}
+  - category: {fileID: 11400000, guid: 87c56b1777d9bba4e8251c1caff5cac9, type: 2}
+    priceFluctuation: {x: 1.1, y: 1.3}
+  - category: {fileID: 11400000, guid: 87b050dcb80624449b591f5ec6ec6712, type: 2}
+    priceFluctuation: {x: 1.2, y: 1.6}
+  - category: {fileID: 11400000, guid: eb72eeee1a26f16459da69511ed68e1a, type: 2}
+    priceFluctuation: {x: 0.6, y: 1.2}
+  playerSpotRadius: 12
+  audioIdentifier: 2
+  characterName: Lavalass
+  characterPortrait: {fileID: 21300000, guid: 077ec544a5393854e85ea2e2194b6d2d, type: 3}
+  welcomeTalk: <bounce>Hot lava, glad to have you around!</bounce> Show me the good
+    stuff from across the world!
+  noMoneyTalk: <bounce>Nuh-huh!</bounce> You can't pay that as it is! But you're
+    a smart trader, right? Go deal around and you'll get back on your feet!
+  buyTalk: <wave>Fantabulous!</wave> Be sure to put that to good use!
+  sellTalk: Not too shabby, my foreign friend. This will be very popular across my
+    friend circles!
+  outOfStockTalk: Didn't think it'd be that hot of an item. <bounce>It ran out so
+    fast!</bounce>

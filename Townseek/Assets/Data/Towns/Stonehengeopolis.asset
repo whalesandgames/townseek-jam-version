@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80349e86f894429f8b931128245e853d, type: 3}
+  m_Name: Stonehengeopolis
+  m_EditorClassIdentifier: 
+  townDescription: Ask before taking photos near the rock formations. Half of them
+    have feelings.
+  townIcon: {fileID: 21300000, guid: 9bc0fe9a5dd840f4483785ae04243fe7, type: 3}
+  itemInventory:
+  - item: {fileID: 11400000, guid: cbf762e0426506341b5f9a93e88daee4, type: 2}
+    stock: 10
+    restockTime: 20
+  - item: {fileID: 11400000, guid: 39971d91c132ef4408d6898a015c0b7b, type: 2}
+    stock: 4
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 4beaa1a7f614b624aa1819cac2fdecaf, type: 2}
+    stock: 10
+    restockTime: 30
+  - item: {fileID: 11400000, guid: a0c5a0649856c7042846e825080df53a, type: 2}
+    stock: 3
+    restockTime: 40
+  - item: {fileID: 11400000, guid: 2f72c15df95330a468176e79a13d1446, type: 2}
+    stock: 2
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 8391ef83839e0ac4b8843e1281e094c0, type: 2}
+    stock: 3
+    restockTime: 40
+  categoryModifiers:
+  - category: {fileID: 11400000, guid: 599e157d636fdb941aed7417e413f788, type: 2}
+    priceFluctuation: {x: 0.8, y: 1.1}
+  - category: {fileID: 11400000, guid: 87c56b1777d9bba4e8251c1caff5cac9, type: 2}
+    priceFluctuation: {x: 0.7, y: 0.7}
+  - category: {fileID: 11400000, guid: 87b050dcb80624449b591f5ec6ec6712, type: 2}
+    priceFluctuation: {x: 0.5, y: 0.8}
+  - category: {fileID: 11400000, guid: eb72eeee1a26f16459da69511ed68e1a, type: 2}
+    priceFluctuation: {x: 1.3, y: 1.7}
+  playerSpotRadius: 10
+  audioIdentifier: 3
+  characterName: Mr. Moe
+  characterPortrait: {fileID: 21300000, guid: 45974efdfa4514d40aa3ff27d5916959, type: 3}
+  welcomeTalk: Welcome. Visitor. We trade. Good business. Fair deals.
+  noMoneyTalk: No money. No deal. No problem. Go trade. Get rich. Come back. We cool.
+  buyTalk: Deal. Good taste. Enjoy.
+  sellTalk: Fair price. Good quality. I take. Thank you.
+  outOfStockTalk: We're out. Sorry. Restock soon. Come back.

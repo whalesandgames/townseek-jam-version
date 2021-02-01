@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80349e86f894429f8b931128245e853d, type: 3}
+  m_Name: Meowosville
+  m_EditorClassIdentifier: 
+  townDescription: Catfolk heaven. Yarnballs, scratching posts and milk as far as
+    the eye can see. Beach is not for tourists.
+  townIcon: {fileID: 21300000, guid: 70adcb7b89d8e5c4a94bc9b80eba0dd6, type: 3}
+  itemInventory:
+  - item: {fileID: 11400000, guid: aa17bb230596742468fc7179a4b4438e, type: 2}
+    stock: 10
+    restockTime: 20
+  - item: {fileID: 11400000, guid: 9f15c2c1a925d9345a0278d25b551f3f, type: 2}
+    stock: 7
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 4beaa1a7f614b624aa1819cac2fdecaf, type: 2}
+    stock: 5
+    restockTime: 30
+  - item: {fileID: 11400000, guid: a0c5a0649856c7042846e825080df53a, type: 2}
+    stock: 5
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 39971d91c132ef4408d6898a015c0b7b, type: 2}
+    stock: 2
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 0eaac2bb15f55a142948b874fad70487, type: 2}
+    stock: 4
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 8d3753c390797644ab1799ede42baca2, type: 2}
+    stock: 3
+    restockTime: 30
+  categoryModifiers:
+  - category: {fileID: 11400000, guid: 599e157d636fdb941aed7417e413f788, type: 2}
+    priceFluctuation: {x: 1.2, y: 1.5}
+  - category: {fileID: 11400000, guid: 87c56b1777d9bba4e8251c1caff5cac9, type: 2}
+    priceFluctuation: {x: 0.5, y: 0.9}
+  - category: {fileID: 11400000, guid: 87b050dcb80624449b591f5ec6ec6712, type: 2}
+    priceFluctuation: {x: 1.1, y: 1.5}
+  - category: {fileID: 11400000, guid: eb72eeee1a26f16459da69511ed68e1a, type: 2}
+    priceFluctuation: {x: 1.1, y: 1.4}
+  playerSpotRadius: 10
+  audioIdentifier: 1
+  characterName: Whiskey
+  characterPortrait: {fileID: 21300000, guid: 76278026196a20e49b95ca234a12fd67, type: 3}
+  welcomeTalk: <wave>Meow to you, boss!</wave> Came to pawn some goods, mreowyes?
+  noMoneyTalk: <shake>Paws off, boss.</shake> Come next time with meowre gold and
+    we'll see how it goes.
+  buyTalk: Shiny and polished, <wave>just for you, boss!</wave>
+  sellTalk: I'll be taking that off your paws, boss. Can't have enough of these shinies.
+  outOfStockTalk: Sorry, boss. Meowre out of stock. We'll refill soon, so come back,
+    okay?

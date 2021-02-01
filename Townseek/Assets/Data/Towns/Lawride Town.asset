@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80349e86f894429f8b931128245e853d, type: 3}
+  m_Name: Lawride Town
+  m_EditorClassIdentifier: 
+  townDescription: A simple town, often raided by bandits that only steal vegetables.
+    Relatively peaceful otherwise.
+  townIcon: {fileID: 21300000, guid: 141877c23cc02e24ab025a68740b4a8a, type: 3}
+  itemInventory:
+  - item: {fileID: 11400000, guid: 4beaa1a7f614b624aa1819cac2fdecaf, type: 2}
+    stock: 10
+    restockTime: 20
+  - item: {fileID: 11400000, guid: 2f72c15df95330a468176e79a13d1446, type: 2}
+    stock: 6
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 0eaac2bb15f55a142948b874fad70487, type: 2}
+    stock: 4
+    restockTime: 40
+  - item: {fileID: 11400000, guid: 1b5c6e7351866d64c952ec3e67d71a7f, type: 2}
+    stock: 4
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 1743dffbf47106b4491109b832697f3d, type: 2}
+    stock: 4
+    restockTime: 40
+  - item: {fileID: 11400000, guid: 928a58c821aacbf49a089587cf69f107, type: 2}
+    stock: 4
+    restockTime: 30
+  - item: {fileID: 11400000, guid: cbf762e0426506341b5f9a93e88daee4, type: 2}
+    stock: 4
+    restockTime: 50
+  categoryModifiers:
+  - category: {fileID: 11400000, guid: 599e157d636fdb941aed7417e413f788, type: 2}
+    priceFluctuation: {x: 0.7, y: 1.6}
+  - category: {fileID: 11400000, guid: 87c56b1777d9bba4e8251c1caff5cac9, type: 2}
+    priceFluctuation: {x: 0.8, y: 1.2}
+  - category: {fileID: 11400000, guid: 87b050dcb80624449b591f5ec6ec6712, type: 2}
+    priceFluctuation: {x: 1.1, y: 1.2}
+  - category: {fileID: 11400000, guid: eb72eeee1a26f16459da69511ed68e1a, type: 2}
+    priceFluctuation: {x: 0.7, y: 0.9}
+  playerSpotRadius: 8
+  audioIdentifier: 6
+  characterName: The Mayor
+  characterPortrait: {fileID: 21300000, guid: a58027a23cb48344392e7f4a1bfb8266, type: 3}
+  welcomeTalk: <wave>Want to help out with the local farm?</wave> Oh, just stopping
+    to trade? Well, I'll entertain you.
+  noMoneyTalk: These are hard times, yes. I understand not having enough to pay,
+    but I've got to take care of my wares too.
+  buyTalk: It will all get reinvested in the town, thank you very much!
+  sellTalk: One man's trash and all that, right? Here's your money. <bounce>You've
+    earned it!</bounce>
+  outOfStockTalk: Huh... Didn't think we'd run out of those. A new shipment should
+    be on the way though.

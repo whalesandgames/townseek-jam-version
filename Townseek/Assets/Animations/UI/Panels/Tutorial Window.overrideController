@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Tutorial Window
+  m_Controller: {fileID: 9100000, guid: e2c8f40512776054590ab1ab2be376f6, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9094e13c86359ea45a2cbb10d4f5f99d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eaa3e3f1dc4442340a2f63e2eb9c4340, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 959225bdcbab36145b956ce7d5798a05, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a29d8549aa20f3343ae833b8ded0aa3a, type: 2}

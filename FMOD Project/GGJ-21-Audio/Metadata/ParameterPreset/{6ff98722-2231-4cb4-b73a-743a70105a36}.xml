@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="ParameterPreset" id="{6ff98722-2231-4cb4-b73a-743a70105a36}">
+		<property name="name">
+			<value>OceanProx</value>
+		</property>
+		<relationship name="folder">
+			<destination>{236b5fcc-673d-4386-ace7-94b7d189730d}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7b6f0339-1fed-42ec-b20d-28cdd989e86c}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7b6f0339-1fed-42ec-b20d-28cdd989e86c}">
+		<property name="maximum">
+			<value>100</value>
+		</property>
+		<property name="initialValue">
+			<value>100</value>
+		</property>
+	</object>
+</objects>

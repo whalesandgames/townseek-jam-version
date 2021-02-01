@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8022862861849167464
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7056963996783738658, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4806984384346587286, guid: 8ac912ceb0555d4459e564fc977b288c, type: 3}
+    - target: {fileID: 7056963997090161900, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_Name
+      value: Waddle Village
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161902, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7056963997090161903, guid: 935231a899672c14daf982581649be65, type: 3}
+      propertyPath: landmark
+      value: 
+      objectReference: {fileID: 11400000, guid: 07a46e706c862284e8e8206b68439d48, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 935231a899672c14daf982581649be65, type: 3}

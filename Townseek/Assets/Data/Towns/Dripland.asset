@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80349e86f894429f8b931128245e853d, type: 3}
+  m_Name: Dripland
+  m_EditorClassIdentifier: 
+  townDescription: The slime people come from the big faucet's primordial goop. They're
+    very firendly, so keep a towel at hand.
+  townIcon: {fileID: 21300000, guid: 176c97ffa96bed74fad93402e5a80371, type: 3}
+  itemInventory:
+  - item: {fileID: 11400000, guid: 191a57455c1e486468dc27d49fcee710, type: 2}
+    stock: 10
+    restockTime: 20
+  - item: {fileID: 11400000, guid: cbf762e0426506341b5f9a93e88daee4, type: 2}
+    stock: 5
+    restockTime: 40
+  - item: {fileID: 11400000, guid: 8d3753c390797644ab1799ede42baca2, type: 2}
+    stock: 5
+    restockTime: 40
+  - item: {fileID: 11400000, guid: 1b5c6e7351866d64c952ec3e67d71a7f, type: 2}
+    stock: 4
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 1439aeb8e2d94224fb44211b0ee6282a, type: 2}
+    stock: 3
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 928a58c821aacbf49a089587cf69f107, type: 2}
+    stock: 6
+    restockTime: 30
+  - item: {fileID: 11400000, guid: 0eaac2bb15f55a142948b874fad70487, type: 2}
+    stock: 5
+    restockTime: 30
+  categoryModifiers:
+  - category: {fileID: 11400000, guid: 599e157d636fdb941aed7417e413f788, type: 2}
+    priceFluctuation: {x: 0.5, y: 0.9}
+  - category: {fileID: 11400000, guid: 87c56b1777d9bba4e8251c1caff5cac9, type: 2}
+    priceFluctuation: {x: 1.1, y: 1.5}
+  - category: {fileID: 11400000, guid: 87b050dcb80624449b591f5ec6ec6712, type: 2}
+    priceFluctuation: {x: 0.8, y: 1.2}
+  - category: {fileID: 11400000, guid: eb72eeee1a26f16459da69511ed68e1a, type: 2}
+    priceFluctuation: {x: 0.7, y: 1.1}
+  playerSpotRadius: 8
+  audioIdentifier: 4
+  characterName: Blubbie
+  characterPortrait: {fileID: 21300000, guid: 94bfcff47bdaf134a883793f0b6bfbb3, type: 3}
+  welcomeTalk: <wave>Yo!</wave> Don't be a stranger and lets get to trade!
+  noMoneyTalk: <wiggle>Oooooh, can't do, sorry!</wiggle> You're low on cash. But
+    go get a bit more, alright? I can wait!
+  buyTalk: Glad that you found something of your taste, <wave>teehee!</wave> May
+    it bring you wealth and fortune!
+  sellTalk: Oh, I'll take good care of this! <wave>Thank you forever!</wave>
+  outOfStockTalk: <bounce>We poppped!</bounce> Not a single thing left in stock,
+    sorry! But we'll make it up to you next time, alright? <bounce>So come back!</bounce>

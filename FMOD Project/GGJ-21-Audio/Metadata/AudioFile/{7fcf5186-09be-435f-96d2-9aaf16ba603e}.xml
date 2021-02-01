@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{7fcf5186-09be-435f-96d2-9aaf16ba603e}">
+		<property name="assetPath">
+			<value>coin03.ogg</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.69532879818594107</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7d1f0898-96be-48a1-8137-661886323f8d}</destination>
+		</relationship>
+	</object>
+</objects>
