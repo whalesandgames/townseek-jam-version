@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using Sirenix.OdinInspector;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using WhalesAndGames.MapGame.Singletons;
 
@@ -16,7 +17,10 @@ namespace WhalesAndGames.MapGame.UI
         private GameObject tutorialWindow;
         private Animator tutorialWindowAnimator;
 
-        [BoxGroup("Logo")]
+        [BoxGroup("Banner and Start Button")]
+        [SerializeField]
+        private Button clickToStartButton;
+        [BoxGroup("Banner and Start Button")]
         [SerializeField]
         private GameObject pressBanner;
         private Animator pressBannerAnimator;
@@ -43,6 +47,8 @@ namespace WhalesAndGames.MapGame.UI
         /// </summary>
         public void OpenTutorialWindow()
         {
+            clickToStartButton.gameObject.SetActive(false);
+            
             pressBannerAnimator.SetTrigger("Close");
             tutorialWindow.SetActive(true);
         }

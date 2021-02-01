@@ -64,11 +64,23 @@ namespace WhalesAndGames.MapGame.Singletons
         /// </summary>
         private void Start()
         {
-            PlayerMoneyChanged?.Invoke(money);
-            
+            AddPlayerStartingItems();
+
             GlobalManager.Instance.playerInput.actions["PressToStart"].performed += PressToStart;
         }
-        
+
+        /// <summary>
+        /// Adds starting items to the player's inventory.
+        /// </summary>
+        private void AddPlayerStartingItems()
+        {
+            PlayerMoneyChanged?.Invoke(money);
+            foreach (var startItem in startingItems)
+            {
+                ChangePlayerInventory(startItem.item, startItem.quantity);
+            }
+        }
+
         /// <summary>
         /// Player pressed to start, which sets the Game State as tutorial.
         /// </summary>
